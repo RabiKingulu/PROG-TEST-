@@ -11,7 +11,7 @@ public class RunApplication {
         System.out.println("3) SWITCH");
         System.out.print("Enter choice (1-3): ");
         int choice = scanner.nextInt();
-        scanner.nextLine(); // Consume newline
+        scanner.nextLine();
 
         String consoleType = "";
         switch (choice) {
@@ -35,9 +35,9 @@ public class RunApplication {
         System.out.print("Enter the total sales of console: ");
         int totalSales = scanner.nextInt();
 
-        System.out.println(); // Blank line for separation
+        System.out.println(); 
 
-        // Instantiate ConsoleSales object and display report
+        
         ConsoleSales report = new ConsoleSales(consoleType, store, totalSales);
         report.printReport();
 
