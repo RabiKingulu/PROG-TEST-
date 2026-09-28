@@ -4,7 +4,6 @@ public abstract class Consoles implements IConsole {
     private String store;
     public Consoles(String consoleDeviceType, String consoleName, int totalSales){
         this.consoleDeviceType=consoleDeviceType;
-        this.consoleName=consoleName;
         this.totalSales=totalSales;
     }
 
