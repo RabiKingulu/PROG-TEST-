@@ -1,6 +1,5 @@
 public abstract class Consoles implements IConsole {
     private String consoleDeviceType;
-    private String consoleName;
     private int totalSales;
     private String store;
     public Consoles(String consoleDeviceType, String consoleName, int totalSales){
@@ -11,10 +10,6 @@ public abstract class Consoles implements IConsole {
 
     public String getConsoleDeviceType() {
         return consoleDeviceType;
-    }
-
-    public String getConsoleName() {
-        return consoleName;
     }
 
     @Override
