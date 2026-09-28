@@ -1,6 +1,6 @@
 public class ConsoleSales extends Consoles {
-    public ConsoleSales(String consoleDeviceType, int totalSales){
-        super(consoleDeviceType,totalSales);
+    public ConsoleSales(String consoleDeviceType, int totalSales,String store){
+        super(consoleDeviceType,totalSales,store);
     }
     public void printReport(){
         System.out.println("Select the beverage type");
